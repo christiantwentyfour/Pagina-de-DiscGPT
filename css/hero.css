@@ -1,0 +1,128 @@
+/* Hero Section */
+/* =============================================
+   BUSCA EN hero.css LA SECCIÓN .hero
+   Y REEMPLAZA CON ESTO:
+   ============================================= */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 120px 50px 100px; /* Ajustado a 120px (antes 130px) */
+    overflow: hidden;
+}
+
+/* Contenido del hero con menos espacio superior */
+.hero-content {
+    max-width: 900px;
+    position: relative;
+    z-index: var(--z-content);
+    animation: fadeInUp 1s ease-out;
+    margin-top: 10px; /* Reducido de 20px a 10px */
+}
+
+/* Badge con espacio moderado */
+.badge {
+    display: inline-block;
+    padding: 12px 24px;
+    background: rgba(88, 101, 242, 0.1);
+    border: 1px solid rgba(88, 101, 242, 0.3);
+    border-radius: var(--radius-full);
+    font-size: var(--text-sm);
+    color: var(--primary);
+    margin-bottom: 25px; /* Ajustado de 30px a 25px */
+    backdrop-filter: blur(10px);
+    animation: fadeInDown 0.8s ease-out;
+}
+
+.hero h1 {
+    font-size: var(--text-6xl);
+    margin-bottom: 25px; /* Ajustado de 30px a 25px */
+    font-weight: bold;
+    line-height: 1.2;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: fadeInUp 1s ease-out 0.2s backwards;
+}
+
+.subtitle {
+    font-size: var(--text-xl);
+    color: var(--text-secondary);
+    margin-bottom: 45px; /* Ajustado de 50px a 45px */
+    line-height: 1.6;
+    animation: fadeInUp 1s ease-out 0.4s backwards;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 55px; /* Ajustado de 60px a 55px */
+    animation: fadeInUp 1s ease-out 0.6s backwards;
+}
+
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 55px; /* Ajustado de 60px a 55px */
+    margin-top: 70px; /* Ajustado de 80px a 70px */
+    animation: fadeInUp 1s ease-out 0.8s backwards;
+}
+
+.stat-mini {
+    text-align: center;
+}
+
+.stat-mini strong {
+    display: block;
+    font-size: var(--text-3xl);
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 8px; /* Aumentado de 5px a 8px */
+}
+
+.stat-mini span {
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+}
+
+/* Responsive - Más espacio en móvil también */
+@media (max-width: 768px) {
+    .hero {
+        padding: 120px 20px 80px; /* Ajustado para móvil */
+        min-height: auto;
+    }
+
+    .hero-content {
+        margin-top: 20px;
+    }
+
+    .hero h1 {
+        font-size: var(--text-4xl);
+        margin-bottom: 20px;
+    }
+
+    .subtitle {
+        font-size: var(--text-base);
+        margin-bottom: 40px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .hero-stats {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 50px;
+    }
+}
