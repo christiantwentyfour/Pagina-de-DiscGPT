@@ -1,0 +1,302 @@
+{
+  "site": {
+    "name": "DiscGPT",
+    "tagline": "El bot de Discord con inteligencia artificial más avanzado para tu servidor",
+    "year": 2025
+  },
+  "links": {
+    "botInvite": "https://discord.com/oauth2/authorize?client_id=1429186379476238376&permissions=8&integration_type=0&scope=bot",
+    "payment": "#COLOCA_LINK_PAGO",
+    "contact": "#COLOCA_LINK_CONTACTO",
+    "support": "#COLOCA_TU_SERVIDOR_DE_SOPORTE",
+    "documentation": "#COLOCA_LINK_DOCUMENTACION",
+    "api": "#COLOCA_LINK_API",
+    "changelog": "#COLOCA_LINK_CHANGELOG",
+    "guides": "#COLOCA_LINK_GUIAS",
+    "blog": "#COLOCA_LINK_BLOG",
+    "tutorials": "#COLOCA_LINK_TUTORIALES",
+    "status": "#COLOCA_LINK_STATUS",
+    "about": "#COLOCA_LINK_SOBRE_NOSOTROS",
+    "terms": "#COLOCA_LINK_TERMINOS",
+    "privacy": "#COLOCA_LINK_PRIVACIDAD",
+    "cookies": "#COLOCA_LINK_COOKIES",
+    "twitter": "#TWITTER",
+    "discord": "#DISCORD",
+    "github": "#GITHUB",
+    "youtube": "#YOUTUBE"
+  },
+  "icons": {
+    "logo": "bot",
+    "rocket": "rocket",
+    "brain": "brain",
+    "lightning": "zap",
+    "art": "palette",
+    "tools": "wrench",
+    "globe": "globe",
+    "chart": "bar-chart-3",
+    "user": "user",
+    "bot": "bot",
+    "check": "check",
+    "cross": "x",
+    "star": "star",
+    "sun": "sun",
+    "moon": "moon",
+    "twitter": "twitter",
+    "discordIcon": "message-circle",
+    "githubIcon": "github",
+    "youtubeIcon": "youtube",
+    "lock": "lock",
+    "shield": "shield",
+    "manager1": "user-circle",
+    "manager2": "user-cog",
+    "manager3": "users",
+    "checkCompleted": "check-circle",
+    "rocketActive": "rocket",
+    "calendar": "calendar"
+  },
+  "hero": {
+    "badge": "Nuevo: GPT-4 Integrado",
+    "badgeIcon": "sparkles",
+    "title": "DiscGPT",
+    "subtitle": "El bot de Discord con inteligencia artificial más avanzado para tu servidor",
+    "stats": {
+      "servers": "50K+",
+      "users": "1M+",
+      "uptime": "99.9%"
+    }
+  },
+  "features": [
+    {
+      "icon": "brain",
+      "title": "IA Avanzada",
+      "description": "Conversaciones naturales potenciadas por GPT. Respuestas inteligentes y contextuales para cualquier pregunta."
+    },
+    {
+      "icon": "zap",
+      "title": "Respuestas Rápidas",
+      "description": "Procesamiento ultrarrápido para que nunca tengas que esperar. Optimizado para la mejor experiencia."
+    },
+    {
+      "icon": "palette",
+      "title": "Generación de Imágenes",
+      "description": "Crea arte único con comandos de generación de imágenes basados en IA."
+    },
+    {
+      "icon": "wrench",
+      "title": "Moderación Inteligente",
+      "description": "Herramientas de moderación automática para mantener tu servidor seguro y ordenado."
+    },
+    {
+      "icon": "globe",
+      "title": "Multilenguaje",
+      "description": "Soporta múltiples idiomas para una experiencia global sin barreras."
+    },
+    {
+      "icon": "bar-chart-3",
+      "title": "Análisis de Datos",
+      "description": "Genera análisis y resúmenes inteligentes de tus conversaciones y datos."
+    }
+  ],
+  "commands": [
+    {
+      "name": "/gpt pregunta",
+      "badge": "Popular",
+      "description": "Haz cualquier pregunta y obtén una respuesta inteligente de GPT"
+    },
+    {
+      "name": "/chat conversar",
+      "badge": "Nuevo",
+      "description": "Inicia una conversación natural con el bot que recuerda el contexto"
+    },
+    {
+      "name": "/imagen generar",
+      "badge": "Popular",
+      "description": "Genera imágenes únicas basadas en tu descripción"
+    },
+    {
+      "name": "/resumir texto",
+      "badge": null,
+      "description": "Resume textos largos de forma inteligente y concisa"
+    },
+    {
+      "name": "/traducir idioma",
+      "badge": null,
+      "description": "Traduce texto entre más de 50 idiomas con precisión"
+    },
+    {
+      "name": "/codigo ayuda",
+      "badge": null,
+      "description": "Obtén ayuda con programación, debug y explicaciones de código"
+    },
+    {
+      "name": "/escribir texto",
+      "badge": null,
+      "description": "Genera contenido creativo: historias, ensayos, artículos"
+    },
+    {
+      "name": "/analizar datos",
+      "badge": "Nuevo",
+      "description": "Analiza información y genera insights valiosos"
+    }
+  ],
+  "pricing": [
+    {
+      "name": "Gratis",
+      "price": 0,
+      "popular": false,
+      "features": [
+        { "text": "50 comandos/día", "included": true },
+        { "text": "Respuestas básicas GPT", "included": true },
+        { "text": "Soporte comunitario", "included": true },
+        { "text": "Actualizaciones automáticas", "included": true },
+        { "text": "Generación de imágenes", "included": false },
+        { "text": "Soporte prioritario", "included": false }
+      ],
+      "buttonText": "Comenzar Gratis",
+      "buttonLink": "botInvite"
+    },
+    {
+      "name": "Pro",
+      "price": 9.99,
+      "popular": true,
+      "features": [
+        { "text": "Comandos ilimitados", "included": true },
+        { "text": "GPT-4 completo", "included": true },
+        { "text": "Generación de imágenes", "included": true },
+        { "text": "Análisis avanzado", "included": true },
+        { "text": "Soporte prioritario", "included": true },
+        { "text": "Sin anuncios", "included": true }
+      ],
+      "buttonText": "Mejorar a Pro",
+      "buttonLink": "payment"
+    },
+    {
+      "name": "Enterprise",
+      "price": 49,
+      "popular": false,
+      "features": [
+        { "text": "Todo en Pro", "included": true },
+        { "text": "API dedicada", "included": true },
+        { "text": "Comandos personalizados", "included": true },
+        { "text": "SLA 99.9%", "included": true },
+        { "text": "Soporte 24/7", "included": true },
+        { "text": "Integraciones custom", "included": true }
+      ],
+      "buttonText": "Contactar Ventas",
+      "buttonLink": "contact"
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "DiscGPT ha transformado completamente nuestro servidor. Las respuestas son increíblemente precisas y rápidas. ¡Imprescindible!",
+      "author": "Carlos Méndez",
+      "role": "Admin - TechCommunity",
+      "avatar": "user-circle",
+      "stars": 5
+    },
+    {
+      "text": "La mejor inversión para mi servidor gaming. Los usuarios están encantados con las respuestas y la moderación automática.",
+      "author": "María González",
+      "role": "Owner - GamersParadise",
+      "avatar": "user-cog",
+      "stars": 5
+    },
+    {
+      "text": "Increíble bot! La generación de imágenes es alucinante y el soporte es excelente. Totalmente recomendado.",
+      "author": "Alex Rivera",
+      "role": "Moderador - ArtHub",
+      "avatar": "users",
+      "stars": 5
+    }
+  ],
+  "roadmap": [
+    {
+      "quarter": "Q1 2025",
+      "title": "Integración GPT-4 Turbo",
+      "status": "completed",
+      "icon": "check-circle"
+    },
+    {
+      "quarter": "Q2 2025",
+      "title": "Generación de imágenes HD",
+      "status": "completed",
+      "icon": "check-circle"
+    },
+    {
+      "quarter": "Q3 2025",
+      "title": "Voice AI - Conversaciones de voz",
+      "status": "active",
+      "icon": "rocket"
+    },
+    {
+      "quarter": "Q4 2025",
+      "title": "Marketplace de plugins",
+      "status": "planned",
+      "icon": "calendar"
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Cómo añado DiscGPT a mi servidor?",
+      "answer": "Es muy sencillo: haz clic en 'Añadir a Discord', selecciona tu servidor, autoriza los permisos necesarios y listo. El bot estará activo inmediatamente."
+    },
+    {
+      "question": "¿Es realmente gratis?",
+      "answer": "Sí, ofrecemos un plan completamente gratuito con 50 comandos diarios. Si necesitas más, puedes actualizar a Pro en cualquier momento."
+    },
+    {
+      "question": "¿Qué datos recopila el bot?",
+      "answer": "Solo recopilamos datos necesarios para el funcionamiento: comandos ejecutados, ID de servidor y usuario. Nunca vendemos datos a terceros. Lee nuestra política de privacidad para más detalles."
+    },
+    {
+      "question": "¿Puedo personalizar los comandos?",
+      "answer": "En el plan Enterprise sí. Puedes crear comandos personalizados y ajustar el comportamiento del bot según las necesidades de tu comunidad."
+    },
+    {
+      "question": "¿Qué hago si el bot no responde?",
+      "answer": "Primero verifica que el bot tenga los permisos correctos. Si el problema persiste, visita nuestro servidor de soporte donde nuestro equipo te ayudará en minutos."
+    },
+    {
+      "question": "¿Ofrecen reembolsos?",
+      "answer": "Sí, ofrecemos garantía de reembolso de 7 días sin preguntas. Si no estás satisfecho, te devolvemos tu dinero completo."
+    }
+  ],
+  "stats": {
+    "servers": 50000,
+    "users": 1000000,
+    "commands": 5000000,
+    "uptime": "99.9%"
+  },
+  "footer": {
+    "description": "El bot de Discord con IA más avanzado del mercado.",
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Recibe las últimas actualizaciones y novedades.",
+      "placeholder": "tu@email.com",
+      "buttonText": "Suscribirse"
+    },
+    "badges": [
+      { "icon": "lock", "text": "SSL Seguro" },
+      { "icon": "zap", "text": "99.9% Uptime" },
+      { "icon": "shield", "text": "GDPR Compliant" }
+    ],
+    "copyright": "© 2025 DiscGPT. Todos los derechos reservados."
+  },
+  "demo": {
+    "userMessage": "/gpt ¿Cómo funciona la inteligencia artificial?",
+    "botResponse": "¡Excelente pregunta! La inteligencia artificial funciona mediante algoritmos y modelos matemáticos que aprenden de grandes cantidades de datos. En esencia, un sistema de IA analiza patrones, hace predicciones y mejora con el tiempo. Por ejemplo, los modelos de lenguaje como yo procesan texto usando redes neuronales profundas que han sido entrenadas con billones de palabras. Esto nos permite entender contexto, generar respuestas coherentes y ayudarte con prácticamente cualquier pregunta. ¡Es fascinante cómo la tecnología ha avanzado!",
+    "features": [
+      "Respuestas instantáneas y precisas",
+      "Contexto conversacional inteligente",
+      "Formato Discord nativo",
+      "Respuestas detalladas y educativas"
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para revolucionar tu servidor?",
+    "subtitle": "Únete a miles de comunidades que ya usan DiscGPT",
+    "buttonText": "Añadir a Discord Ahora",
+    "note": "Sin tarjeta de crédito requerida · Configuración en 2 minutos",
+    "noteIcons": ["check-circle", "check-circle"]
+  }
+}

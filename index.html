@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiscGPT - Bot de Discord con IA</title>
+    
+    <!-- CSS Modular -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/commands.css">
+    <link rel="stylesheet" href="css/pricing.css">
+    <link rel="stylesheet" href="css/testimonials.css">
+    <link rel="stylesheet" href="css/roadmap.css">
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="css/stats.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+    <style>
+        /* Estilos para iconos SVG */
+        .icon-wrapper {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .icon {
+            width: 24px;
+            height: 24px;
+            stroke: currentColor;
+        }
+        
+        .icon-sm { width: 16px; height: 16px; }
+        .icon-md { width: 24px; height: 24px; }
+        .icon-lg { width: 32px; height: 32px; }
+        .icon-xl { width: 48px; height: 48px; }
+    </style>
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+    <div class="gradient-bg"></div>
+    
+    <!-- Mouse Gradient Effects -->
+    <div class="mouse-gradient mouse-gradient-1" id="mouseGradient1"></div>
+    <div class="mouse-gradient mouse-gradient-2" id="mouseGradient2"></div>
+    <div class="mouse-gradient mouse-gradient-3" id="mouseGradient3"></div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+        <span class="sun" id="sunIcon"></span>
+        <span class="moon" id="moonIcon"></span>
+    </button>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navigation -->
+    <nav id="mainNav"></nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="heroSection"></section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2 class="section-title">Características Principales</h2>
+        <div class="features-grid" id="featuresGrid"></div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo-section">
+        <h2 class="section-title">DiscGPT en Acción</h2>
+        <div class="demo-container">
+            <div class="demo-card" id="demoCard">
+                <div class="demo-header">
+                    <div class="demo-dots">
+                        <span class="demo-dot" style="background: #ff5f56;"></span>
+                        <span class="demo-dot" style="background: #ffbd2e;"></span>
+                        <span class="demo-dot" style="background: #27c93f;"></span>
+                    </div>
+                    <span class="demo-title">#general - Discord</span>
+                    <div class="demo-actions">
+                        <span class="demo-action" id="demoSettingsIcon"></span>
+                    </div>
+                </div>
+                <div class="demo-chat" id="demoChat"></div>
+            </div>
+            <div class="demo-features" id="demoFeatures"></div>
+        </div>
+    </section>
+
+    <!-- Commands Section -->
+    <section id="commands" class="commands-section">
+        <h2 class="section-title">Comandos Disponibles</h2>
+        <div class="commands-container" id="commandsContainer"></div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <h2 class="section-title">Planes y Precios</h2>
+        <p class="section-subtitle">Elige el plan perfecto para tu servidor</p>
+        <div class="pricing-grid" id="pricingGrid"></div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <h2 class="section-title">Lo Que Dicen Nuestros Usuarios</h2>
+        <div class="testimonials-container">
+            <button class="testimonial-nav prev" id="prevTestimonial">‹</button>
+            <div class="testimonials-slider" id="testimonialsSlider"></div>
+            <button class="testimonial-nav next" id="nextTestimonial">›</button>
+        </div>
+        <div class="testimonial-dots" id="testimonialDots"></div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section class="roadmap-section">
+        <h2 class="section-title">Roadmap 2025</h2>
+        <p class="section-subtitle">Lo que viene próximamente</p>
+        <div class="roadmap-container" id="roadmapContainer"></div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <h2 class="section-title">Preguntas Frecuentes</h2>
+        <div class="faq-container" id="faqContainer"></div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats-section">
+        <h2 class="section-title">Nuestros Números</h2>
+        <div class="stats-grid" id="statsGrid"></div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="ctaSection"></section>
+
+    <!-- Footer -->
+    <footer id="mainFooter"></footer>
+
+    <!-- JavaScript Modular -->
+    <script src="js/icons.js"></script> <!-- 1. Sistema de iconos AZULES -->
+    <script src="js/config-loader.js"></script> <!-- 2. Cargar config y renderizar -->
+    <script src="js/theme.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/testimonials.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/stats.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
